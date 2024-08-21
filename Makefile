@@ -1,4 +1,4 @@
-PREFIX  := /usr/local
+PREFIX  := ${HOME}/.local
 PKG      = github.com/talal/mimir
 VERSION := $(shell util/find_version.sh)
 

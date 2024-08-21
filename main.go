@@ -13,5 +13,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	os.Stdout.Write([]byte("\n" + prompt.Info() + "\n"))
+	os.Stdout.Write([]byte("[" + prompt.Info() + "]\n"))
 }
